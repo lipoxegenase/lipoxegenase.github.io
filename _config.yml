@@ -1,3 +1,9 @@
 title: Katalyst VC
 description: Micro VC Fund for Scalable Impact
 theme: jekyll-theme-minimal
+# Add under existing config
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Resources"
+    url: "/Resources.md"
