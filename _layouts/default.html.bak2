@@ -15,17 +15,10 @@
 <body class="bg-white text-gray-900">
 
   <!-- Navbar -->
-  <header class="bg-white shadow">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center py-4">
-        <a href="/" class="text-xl font-bold">KatalystVC</a>
-        <button id="menu-toggle" class="sm:hidden text-gray-600 focus:outline-none">
-          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-            <path d="M4 5h16M4 12h16M4 19h16"/>
-          </svg>
-        </button>
-      </div>
-      <nav id="menu" class="hidden sm:flex flex-col sm:flex-row sm:space-x-6 pb-4 sm:pb-0 text-sm">
+  <header class="bg-white shadow p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="/" class="text-xl font-bold">KatalystVC</a>
+      <nav class="flex flex-wrap gap-4 text-sm">
         <a href="/about.html" class="hover:text-blue-500">About</a>
         <a href="/advisory.html" class="hover:text-blue-500">Advisory</a>
         <a href="/contact.html" class="hover:text-blue-500">Contact</a>
@@ -50,16 +43,6 @@
   <footer class="text-center text-sm text-gray-600 py-6 border-t">
     © 2025 KatalystVC — <a href="mailto:contact@katalystvc.com" class="text-blue-500">contact@katalystvc.com</a>
   </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const toggle = document.getElementById('menu-toggle');
-      const menu = document.getElementById('menu');
-      toggle.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-      });
-    });
-  </script>
 
 </body>
 </html>
