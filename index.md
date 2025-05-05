@@ -17,9 +17,9 @@ layout: default
 title: Home
 ---
 
-<section class="text-center">
+<!-- <section class="text-center">
   <h1 class="text-5xl font-bold mb-4">Innovation. Elegance. Creativity.</h1>
   <p class="text-lg text-gray-300">
     KatalystVC is a micro VC fund focused on early-stage startups in emerging markets...
   </p>
-</section>
+</section> -->
