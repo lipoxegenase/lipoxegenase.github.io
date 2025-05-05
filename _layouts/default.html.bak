@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Tailwind CSS & Google Fonts -->
@@ -18,7 +18,7 @@
   <header class="bg-blue-600 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center py-4">
-        <a href="{{ '/' | relative_url }}" class="text-xl font-bold text-white">KatalystVC</a>
+        <a href="/index.html" class="text-xl font-bold text-white">KatalystVC</a>
         <button id="menu-toggle" class="sm:hidden text-white focus:outline-none">
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
             <path d="M4 5h16M4 12h16M4 19h16"/>
@@ -26,24 +26,24 @@
         </button>
       </div>
       <nav id="menu" class="hidden sm:flex flex-col sm:flex-row sm:flex-wrap sm:space-x-4 text-sm pb-4 sm:pb-0">
-        <a href="{{ '/about/' | relative_url }}" class="hover:underline">About</a>
-        <a href="{{ '/advisory/' | relative_url }}" class="hover:underline">Advisory</a>
-        <a href="{{ '/contact/' | relative_url }}" class="hover:underline">Contact</a>
-        <a href="{{ '/education/' | relative_url }}" class="hover:underline">Education</a>
-        <a href="{{ '/equity/' | relative_url }}" class="hover:underline">Equity</a>
-        <a href="{{ '/grants/' | relative_url }}" class="hover:underline">Grants</a>
-        <a href="{{ '/lpcapital/' | relative_url }}" class="hover:underline">LP Capital</a>
-        <a href="{{ '/microloans/' | relative_url }}" class="hover:underline">Microloans</a>
-        <a href="{{ '/origination/' | relative_url }}" class="hover:underline">Origination</a>
-        <a href="{{ '/sponsorships/' | relative_url }}" class="hover:underline">Sponsorships</a>
-        <a href="{{ '/resources/' | relative_url }}" class="hover:underline">Resources</a>
+        <a href="/about.html" class="hover:underline">About</a>
+        <a href="/advisory.html" class="hover:underline">Advisory</a>
+        <a href="/contact.html" class="hover:underline">Contact</a>
+        <a href="/education.html" class="hover:underline">Education</a>
+        <a href="/equity.html" class="hover:underline">Equity</a>
+        <a href="/grants.html" class="hover:underline">Grants</a>
+        <a href="/lpcapital.html" class="hover:underline">LP Capital</a>
+        <a href="/microloans.html" class="hover:underline">Microloans</a>
+        <a href="/origination.html" class="hover:underline">Origination</a>
+        <a href="/sponsorships.html" class="hover:underline">Sponsorships</a>
+        <a href="/resources.html" class="hover:underline">Resources</a>
       </nav>
     </div>
   </header>
 
-  <!-- Page-Specific Content -->
+  <!-- Page Content -->
   <main class="max-w-4xl mx-auto px-4 py-16">
-    {{ content }}
+    <!-- Page-specific content goes here -->
   </main>
 
   <!-- Footer -->
@@ -51,7 +51,7 @@
     © 2025 KatalystVC — <a href="mailto:contact@katalystvc.com" class="text-blue-400 hover:underline">contact@katalystvc.com</a>
   </footer>
 
-  <!-- Mobile Nav Script -->
+  <!-- Mobile Menu Toggle Script -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const toggle = document.getElementById('menu-toggle');
