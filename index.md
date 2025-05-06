@@ -1,4 +1,60 @@
-<!DOCTYPE html>
+<---
+layout: none
+title: Katalyst VC
+---
+
+<style>
+  body {
+    background-color: #111827;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 10vh 1rem;
+  }
+
+  h1 {
+    color: #818cf8;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  input, button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    margin-top: 1rem;
+  }
+
+  input {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #4f46e5;
+  }
+</style>
+
+<h1>Katalyst VC</h1>
+<p>We’re building something impactful.<br/>Our site is under construction. Stay tuned.</p>
+
+<form>
+  <input type="email" placeholder="Enter your email for updates" />
+  <br />
+  <button type="submit">Notify Me</button>
+</form>
+
+<p style="margin-top: 2rem; font-size: 0.875rem; color: #9ca3af;">
+  © 2025 Katalyst VC. All rights reserved.
+</p>!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
