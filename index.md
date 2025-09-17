@@ -6,7 +6,7 @@ title: Home
 # Welcome to KatalystVC
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-  <a href="about.md" class="block p-6 bg-white rounded-lg shadow hover:bg-orange-100 transition">
+  <a href="about.html" class="block p-6 bg-white rounded-lg shadow hover:bg-orange-100 transition">
     <h2 class="text-xl font-semibold text-orange-600 mb-2">About</h2>
     <p class="text-gray-700">Learn more about our mission and team.</p>
   </a>
@@ -42,7 +42,7 @@ title: Home
     <h2 class="text-xl font-semibold text-orange-600 mb-2">Origination</h2>
     <p class="text-gray-700">Origination services and info.</p>
   </a>
-  <a href="resources.md" class="block p-6 bg-white rounded-lg shadow hover:bg-orange-100 transition">
+  <a href="resources.html" class="block p-6 bg-white rounded-lg shadow hover:bg-orange-100 transition">
     <h2 class="text-xl font-semibold text-orange-600 mb-2">Resources</h2>
     <p class="text-gray-700">Download guides and pitch decks.</p>
   </a>
