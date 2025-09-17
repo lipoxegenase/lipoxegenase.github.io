@@ -6,7 +6,7 @@ nav:
   - title: "Home"
     url: "/"
   - title: "Resources"
-    url: "/resources.md"
+    url: "/resources.html"
   - title: "Microloans"
     url: "/microloans.html"
   - title: "Origination"
