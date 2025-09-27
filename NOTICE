@@ -1,0 +1,27 @@
+NOTICE
+
+This project utilizes the following third-party open-source software components:
+
+1.  **Tailwind CSS**
+    *   License: MIT License
+    *   Description: A utility-first CSS framework for rapidly building custom user interfaces.
+    *   Source: https://tailwindcss.com/ 
+
+2.  **lucide-react**
+    *   License: ISC License
+    *   Description: A beautifully simple, customizable, and open-source icon library.
+    *   Source: https://lucide.dev/ 
+
+3.  **shadcn/ui**
+    *   License: MIT License
+    *   Description: Re-usable components built using Radix UI and Tailwind CSS.
+    *   Source: https://ui.shadcn.com/ 
+
+4.  **react-router-dom**
+    *   License: MIT License
+    *   Description: DOM bindings for React Router.
+    *   Source: https://reactrouter.com/ 
+
+
+All first-party code within this project is proprietary to KatalystVC – All Rights Reserved.
+
